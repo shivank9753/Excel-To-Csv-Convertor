@@ -1,4 +1,5 @@
 FROM httpd:2.4
+COPY ./Frontend /usr/local/apache2/htdocs/
 USER root
 RUN apt-get update && \
     apt-get install -y openjdk-17-jdk && \
