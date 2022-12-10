@@ -1,7 +1,7 @@
 # Excel file to CSV convertor using spring boot
 
 #creating the docker image :
-docker build . --tag ExcelCsvConvertor
+docker build . --tag excel-csv-convertor
 
 
 #build project jar usinmg maven :
