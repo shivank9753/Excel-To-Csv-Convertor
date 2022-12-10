@@ -7,3 +7,8 @@ RUN apt-get update && \
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-arm64
 ENV PATH $PATH:$JAVA_HOME/bin
 RUN export JAVA_HOME
+
+RUN mkdir  /csvOutput
+
+
+EXPOSE 8072 80
